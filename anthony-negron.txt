@@ -1,0 +1,101 @@
+link to finished codepen: https://codepen.io/AntNegron/pen/jOwqPam?editors=1100
+    1. What is Semantic HTML? 
+   - It is HTML that gives meaning to our markup.
+    2. What is HTML used for?
+    - It's used to describe the structure of a web page!
+    3. What is an attribute and where do we put it? 
+    - an attribute provides attional information about elements and you can put it inside an html tag.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    - An h1 tag is the largest text size in html and is most often used for the title of a webpage. its should only be used once.
+    5. Name two tags that have required attributes
+    - image tag and anchor tag.
+    6. What do we put in the head of our HTML document? 
+    - Our metadata.
+    7. What is an id?
+    - an id  is the most specific attribute. 
+    8. What elements can I add an id to? 
+    - You can adad an ID to any element
+    9. How many times can I use the same id on a page?
+    - once 
+    10. What is a class?
+    - a class is another way to specify and HTML element.
+    11. What elements can I add a class to? 
+    - You can also add class to any html element 
+    12. How many times can I use the same class on a page?
+    - calsses can be used multiple times on a page, just liek you can have multiple people in a classroom. 
+    13. How do I get my link to open in a new tab?
+    - target =_blank
+    14. What is the alt attribute in the image tag used for?
+    - alt attribute is used to describe the image with text and should be as despriptive as possible.
+    15. How do I reference an id?
+    - use a # to reference an id
+    16. What is the difference between a section and a div
+    - section is semantic and you can have sections within each other, div is used more stylistically.
+    17. What is CSS used for? 
+    - CSS is used to add style to a webpage
+    18. How to we select an element? Example - every h2 on the page
+    - h2 {
+
+    }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    -a calss can be used multiple tiems on a page where an id can only be used once. You might use a class on multiple images to make them so that they can all be styled the same.
+        You would use an ID to definie a specific part of a page.
+    20. How do we select classes in CSS?
+    - calsses are selected with a dot ".".
+    21. How do we select a p element with a single class of “human””?
+    - p.human {
+
+    }
+    22. What is a parent child selector? When would this be useful?
+    - a parent child selector will select all the elements that are a part of the selected parent element. It would be useful to edit all  
+    23. How do you select all links within a div with the class of sidebar?
+    - div.sidebar a {
+
+    } 
+    24. What is a pseudo selector?
+    - its useed to add a style tos specific selector i.e a:hover 
+    25. What do we use the change the spacing between lines?
+    - line-height
+    26. What do we use to change the spacing between letters?
+    - letter-spacing 
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    - text-transform
+    28. How do I add a 1px border around my div that is dotted and black?
+    - div {
+        border: dotted 1px black;
+    } 
+    29. How do I select everything on the page?
+    - * {
+
+    } 
+    30. How do I write a comment in CSS?
+    /* */
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rmv
+    34. Why should I use version control? 
+    35. How often should I commit to github?
+    every 20 minutes or so.
+    36. What is the command we would use to push our repo up to github? 
+    git push -u origin branch name
+    37. Walk me through Lambda's git flow.
+    fork > hit clone > copy ssh link > cd to where you want to put the clone of the forked repo ( cd LambdaAssignments) > git clone *insert link* >
+    cd in to the new repo > create new branch with git checkout -b 'firstname-lastname' > code . / start working > git add . > git commit -m 'helpful message for you in the future or other developers. >
+    git push -u origin branch name > Pull request > branch master, change to your name > create new pull request > change repo to the repo with your name > 
+    click create pull request > copy link of pull request to send in to lambda
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    block-level always starts on a new line and takes up the full width available, inline doesnt start on a new line and it only takes up as much space as it needs.
+    2. What happens when an element is positioned absolutely? 
+    Absolute positioning removes the elemnt from the flow of the page so it is not affected by the positioning of other elements and vise versa. 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    dispaly: inline-block 
+    width: 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    block level: <h1-6> tags, <li> <ul> <ol> <p> inline: <a> <img> <span>, button 
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    Every element is essentially a box when styling with css. 
